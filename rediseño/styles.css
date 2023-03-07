@@ -118,6 +118,12 @@ div p{
     height: 48px;
 }
 
+.aclaracion{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(148, 135, 135);
+}
+
 footer p{
     margin-top: 100px;
     color: white;
