@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Descuento */
+.descuento{
+    background-color: #1CD1B0;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Titulo */
+
+.titulo{
+    font-size: 35px;
+    padding-left: 35px;
+    background-color: #00669F;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div{
+	width: 300px;
+	height: 530px;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 150px;
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0 0;
+}
+
+.like{
+    position: absolute;
+    margin: 15px 0 0 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+.tituloCaja{
+    padding-top: 255px;
+    padding-bottom: 20px;
+}
+
+div p{
+    display: block;
+    height: 113px;
+    width: 267px;
+    margin-top: -5px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+/*Articulo Batman*/
+
+.cajaBatman{
+    background-image: url(/img/Mask\ Group.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgBatman{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    top: 500px;
+    left: 240px;
+}
+
+/*Articulo Harley Quinn*/
+
+.cajaHQ{
+    background-image: url(/img/Mask\ Group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgHQ{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    top: 500px;
+    left: 690px;
+    border-radius: 50%;
+}
+
+/*Articulo Batman 2*/
+
+.cajaBatman2{
+    background-image: url(/img/Mask\ Group.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgBatman2{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    top: 500px;
+    left: 1150px;
+}
+
+.verMas{
+    display: block;
+    color: white;
+    background-color: #00669F;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 85px;
+    padding-top: 14px;
+    width: 128.78px;
+    height: 48px;
+}
+
+footer p{
+    margin-top: 100px;
+    color: white;
+    background-color: #00669F;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
