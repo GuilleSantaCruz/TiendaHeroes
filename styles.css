@@ -60,7 +60,7 @@ div p{
 /*Articulo Batman*/
 
 .cajaBatman{
-    background-image: url(/img/Mask\ Group.png);
+    background-image: url(MaskGroup.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -76,7 +76,7 @@ div p{
 /*Articulo Harley Quinn*/
 
 .cajaHQ{
-    background-image: url(/img/Mask\ Group\ \(1\).png);
+    background-image: url(MaskGroup\(1\).png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -93,7 +93,7 @@ div p{
 /*Articulo Batman 2*/
 
 .cajaBatman2{
-    background-image: url(/img/Mask\ Group.png);
+    background-image: url(MaskGroup.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
