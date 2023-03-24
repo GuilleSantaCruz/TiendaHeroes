@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*HEADER*/
+
+header p{
+    height: 8%;
+    background-color: #1CD1B0;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+header img{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+}
+
+header span{
+    margin-left: 4%;
+}
+
+header nav{
+    color: white;
+    background-color: #001D2D;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    height: 30px;
+    align-items: center;
+}
+
+/*CAJA DE FORMULARIO*/
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 40px;
+    height: 800px;
+    width: 60%;
+    justify-content: center;
+    background-color: #00669F;
+}
+
+.descripTop{
+    margin-top: 20px;
+    text-align: center;
+}
+.descripTop p{
+    margin-top: 15px;
+}
+
+/*FORMULARIO*/
+
+form{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    height: 100%;
+}
+
+input[type="text"]{
+    padding-left: 15px;
+    border: white;
+}
+
+input:not(input[type="file"]):hover{
+    background-color: #e4e6e8;
+}
+
+input:not(input[type="file"]):focus{
+    background-color: #e4e6e8;
+}
+
+ form p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.columna{
+    border: solid 10px #00669F ;
+    width: 50%;
+    height: 535px;
+}
+
+.columna1{
+    width: 100%;
+    border-radius: 15.34px;
+}
+
+input.columna1{
+    height: 60px;
+}
+
+input[type="date"]{
+    padding-left: 15px;
+    padding-right: 15px;
+    border: white;
+}
+
+
+textarea{
+    margin-top: 40px;
+    height: 251px;
+    padding: 15px;
+    font-size: 15px;
+    color: rgb(0, 0, 0, 50%);
+    resize: none;
+}
+
+textarea:focus{
+    color: black;
+}
+
+textarea:hover {
+    background-color: #e4e6e8;
+}
+
+textarea:focus{
+    background-color: #e4e6e8;
+}
+
+.columna2{
+    width: 100%;
+    height: 60px;
+}
+
+select{
+    border-radius: 15.34px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(0, 0, 0, 50%);
+}
+
+select:hover{
+    background-color: #e4e6e8;
+}
+
+input.columna2{
+    padding-top: 15px;
+}
+
+
+.tituloPoderes{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.tituloPersonaje{
+    margin-top: 0;
+}
+
+input[type="radio"]{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+button{
+    background: #1CD1B0;
+    border: 0;
+    border-radius: 23.011px;
+    font-weight: bold;
+    font-size: 40px;
+    height: 80px;
+    width: 466px;
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 150px;
+}
+
+button:hover{
+    background-color: #001D2D;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #00669F;
+    margin-top: 50px;
+    padding: 15px;
+}

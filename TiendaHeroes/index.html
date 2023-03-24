@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <p>20% de descuento en todos los productos!</p>
+        <div class="titulo">
+        <img src="img2/Logo.png" alt="Tienda heroes">
+        <h1>Tienda heroes</h1>
+        </div>
+        <nav>
+            <span>Contacto</span>
+            <span>Registrarme</span>
+            <span>Ingresar</span>
+        </nav>
+    </header>
+
+    <section>
+        <div class="formulario">
+            <div class="descripTop">
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+
+            <form action="styles.css">
+                <div class="columna">
+                    <p class="nombre">* Nombre</p>
+                    <input type="text" id="nombre" name="nombre" class="columna1" placeholder="Ingrese su nombre" required>
+                    <p for="nacimiento">Fecha</p>
+                    <input type="date" name="nacimiento" id="nacimiento" class="columna1" required>
+                    <br>
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" class="columna1" placeholder="Escriba aquí su descripción"></textarea>
+                </div>
+                <div class="columna">
+                    <p class="especie">* Especie</p>                   
+                    <select name="especie" id="especie" class="columna2" placeholder="Especie">
+                    <option value="galactico">Galactico</option>
+                    <option value="superhumano">Superhumano</option>
+                    <option value="luphomoids">Luphomoids</option>                
+                    </select>
+
+                    <p>Agregar foto</p>
+                    <input type="file" id="archivo" name="archivo" class="columna2">
+
+                    <p class="tituloPoderes">Poderes</p>
+                    <input type="checkbox" name="poderes" id="Volar" value="Volar">
+                    <label for="Volar">Volar</label>
+                    <br>
+                    <input type="checkbox" name="poderes" id="Superinteligencia" value="Superinteligencia">
+                    <label for="SuperoInteligencia">Superinteligencia</label>
+                    <br>
+                    <input type="checkbox" name="poderes" id="Vistalaser" value="Vistalaser">
+                    <label for="Vistalaser">Vista de rayo láser</label>
+                    <br>
+                    <input type="checkbox" name="poderes" id="billetera" value="billetera">
+                    <label for="billetera">Billetera gorda</label>
+
+                    <hr>
+
+                    <p class="tituloPersonaje">Tipo de personaje</p>
+                    <input type="radio" name="tipo" id="heroe">
+                    <label for="heroe">Héroe / Heroina</label>
+                    <br>
+                    <input type="radio" name="tipo" id="villano">
+                    <label for="villano">Villano / Villana</label>
+                </div>
+                <button>Añadir</button>
+            </form>
+            </div>
+    </section>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

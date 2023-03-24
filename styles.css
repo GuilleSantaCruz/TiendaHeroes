@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    z-index: 1;
 }
 /* Descuento */
 .descuento{
@@ -22,6 +23,10 @@
     background-color: #00669F;
     padding-top: 30px;
     padding-bottom: 30px;
+    position: sticky;
+    top: -1px;
+    width: 100%;
+    z-index: 2;
 }
 
 div{
@@ -57,6 +62,7 @@ div p{
     font-weight: bolder;
 }
 
+
 /*Articulo Batman*/
 
 .cajaBatman{
@@ -67,10 +73,9 @@ div p{
 
 .imgBatman{
     position: absolute;
-    width: 120px;
-    height: 118px;
-    top: 500px;
-    left: 240px;
+    margin-left: 90px;
+    margin-top: -190px;
+    border-radius: 50%;
 }
 
 /*Articulo Harley Quinn*/
@@ -83,10 +88,8 @@ div p{
 
 .imgHQ{
     position: absolute;
-    width: 120px;
-    height: 118px;
-    top: 500px;
-    left: 690px;
+    margin-left: 90px;
+    margin-top: -190px;
     border-radius: 50%;
 }
 
@@ -100,10 +103,9 @@ div p{
 
 .imgBatman2{
     position: absolute;
-    width: 120px;
-    height: 118px;
-    top: 500px;
-    left: 1150px;
+    margin-left: 90px;
+    margin-top: -190px;
+    border-radius: 50%;
 }
 
 .verMas{
@@ -133,5 +135,22 @@ footer p{
     padding-bottom: 15px;
     font-style: oblique;
     font-weight: bolder;
+}
+
+/*Boton*/
+
+.boton{
+    position: fixed;
+    background-color: #00669F;
+    color: white;
+    bottom: 50%;
+    right: 10px;
+    text-decoration: none;
+    font-size: 62px;
+    font-weight: bold;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50%;
 }
 
